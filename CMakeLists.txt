@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
-project(236_Project_2)
+project(236_Project_3)
 
 set(CMAKE_CXXSTANDARD 17)
 
 include_directories(./Lab1PassOffCases/1-70, Lab1PassOffCases/1-90, Lab1PassOffCases/1-100, Lab2PassOffCases/2-80, Lab2PassOffCases/2-100)
 
-add_executable(236_Project_2
+add_executable(236_Project_3
         main.cpp
         Add.h
         Automaton.h
@@ -28,4 +28,4 @@ add_executable(236_Project_2
         String.h
         Token.h
         Datalog.cpp
-        Datalog.h)
+        Datalog.h Database.cpp Database.h Tuple.h Header.h Relation.h)
