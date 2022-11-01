@@ -17,9 +17,7 @@ using namespace std;
 
 class Database {
 private:
-    map<string, Relation*>
-    vector<Relation*>
-    relation = map[name];
+    map<string, Relation* data>;
 };
 
 
