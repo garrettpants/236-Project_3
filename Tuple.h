@@ -4,9 +4,9 @@
 
 #ifndef INC_236_PROJECT_3_TUPLE_H
 #define INC_236_PROJECT_3_TUPLE_H
-#include "Database.h"
 #include <string>
 #include <vector>
+using namespace std;
 
 class Tuple {
 public:

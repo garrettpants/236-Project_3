@@ -4,7 +4,10 @@
 
 #ifndef INC_236_PROJECT_3_HEADER_H
 #define INC_236_PROJECT_3_HEADER_H
-#include "Database.h"
+#include <string>
+#include <vector>
+
+using namespace std;
 
 class Header {
 public:

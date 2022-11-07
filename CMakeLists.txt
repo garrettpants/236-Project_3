@@ -28,4 +28,4 @@ add_executable(236_Project_3
         String.h
         Token.h
         Datalog.cpp
-        Datalog.h Database.h Tuple.h Header.h Relation.h Interpreter.cpp Interpreter.h Relation.cpp Header.cpp)
+        Datalog.h Database.h Tuple.h Header.h Relation.h Interpreter.cpp Interpreter.h Relation.cpp Header.cpp Tuple.cpp)
