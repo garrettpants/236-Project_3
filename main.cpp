@@ -5,6 +5,7 @@
 #include <sstream>
 #include "Lexer.h"
 #include "Datalog.h"
+#include "Interpreter.h"
 
 
 using namespace std;
@@ -40,6 +41,9 @@ int main(int argc, char** argv) {
     auto* datalog = new Datalog();
     datalog->parser(lexer->getLexer());
     delete lexer;
+
+    Interpreter* i = new Interpreter(datalog);
+    i->get();
 
     return 0;
 }

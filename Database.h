@@ -4,26 +4,14 @@
 
 #ifndef INC_236_PROJECT_3_DATABASE_H
 #define INC_236_PROJECT_3_DATABASE_H
-#include <vector>
-#include "Token.h"
-#include "Parameter.h"
-#include "Predicate.h"
-#include "P2Rules.h"
-#include "Header.h"
-#include "Tuple.h"
-#include <set>
+#include "Relation.h"
+#include <map>
 
 using namespace std;
 
 class Database {
-private:
-    map<string, Relation* data>;
+public:
+   map<string, Relation*> data;
 };
-
-
-
-
-
-
 
 #endif //INC_236_PROJECT_3_DATABASE_H

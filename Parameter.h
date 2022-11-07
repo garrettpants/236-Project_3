@@ -9,9 +9,10 @@
 using namespace std;
 
 class Parameter {
-private:
-    string parameter;
+
 public:
+    string parameter;
+
     Parameter() = default;
     Parameter(string tempPar) {
         parameter = tempPar;

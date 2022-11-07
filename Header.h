@@ -7,13 +7,13 @@
 #include "Database.h"
 
 class Header {
-private:
-    vector<string> attributes;
-public: //TODO find void types
-    void getAllAttribute();
-    void getSingleAttribute();
-    void setAllAttributes();
-    void setSingleAttribute();
+public:
+    vector<string> header;
+    Header(vector<string> s) {
+        header =s;
+    }
+
+    vector<string> projectHeader(vector<int> val);
 };
 
 #endif //INC_236_PROJECT_3_HEADER_H

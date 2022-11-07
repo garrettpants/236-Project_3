@@ -13,10 +13,10 @@
 using namespace std;
 
 class Predicate {
-private:
-    string ID;
 public:
+    string ID;
     vector<Parameter*> parameter;
+
     Predicate() = default;
     Predicate(string id, vector<Parameter*> paramVec) {
         ID = id;

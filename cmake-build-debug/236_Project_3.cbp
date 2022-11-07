@@ -110,9 +110,6 @@
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Comment.h">
 			<Option target="236_Project_3"/>
 		</Unit>
-		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Database.cpp">
-			<Option target="236_Project_3"/>
-		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Database.h">
 			<Option target="236_Project_3"/>
 		</Unit>
@@ -125,10 +122,19 @@
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Facts.h">
 			<Option target="236_Project_3"/>
 		</Unit>
+		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Header.cpp">
+			<Option target="236_Project_3"/>
+		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Header.h">
 			<Option target="236_Project_3"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/ID.h">
+			<Option target="236_Project_3"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Interpreter.cpp">
+			<Option target="236_Project_3"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Interpreter.h">
 			<Option target="236_Project_3"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Left_Paren.h">
@@ -150,6 +156,9 @@
 			<Option target="236_Project_3"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Queries.h">
+			<Option target="236_Project_3"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Relation.cpp">
 			<Option target="236_Project_3"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/CLionRemote/236 Project_3/Relation.h">
