@@ -40,10 +40,9 @@ int main(int argc, char** argv) {
     Lexer* lexer = new Lexer(str);
     auto* datalog = new Datalog();
     datalog->parser(lexer->getLexer());
-    delete lexer;
-
     Interpreter* i = new Interpreter(datalog);
     i->get();
+    delete lexer;
 
     return 0;
 }

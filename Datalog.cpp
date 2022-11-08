@@ -38,12 +38,12 @@ void Datalog::parser(vector<Token*> input) {
         query();
         queryList();
         match(TokenType::END_OF_FILE);
-        cout << "Success!\n";
-        print();
+        //cout << "Success!\n";
+        //print();
     }
     catch (Token *error) { //Looks like Failure is being called anyways
-        cout << "Failure!\n";
-        cout << tokens[index]->toString(); //TODO double check correct index
+        //cout << "Failure!\n";
+        //cout << tokens[index]->toString(); //TODO double check correct index
     }
 }
 

@@ -13,7 +13,7 @@ class Header {
 public:
     vector<string> header;
     Header(vector<string> s) {
-        header =s;
+        header = s;
     }
 
     vector<string> projectHeader(vector<int> val);

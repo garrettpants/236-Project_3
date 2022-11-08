@@ -3,8 +3,10 @@
 //
 
 #include "Header.h"
-std::vector<std::string> Header::projectHeader(std::vector<int> val) {
-    std::vector<std::string> s;
+
+
+vector<string> Header::projectHeader(vector<int> val) {
+    vector<string> s;
     for(int i : val){
         s.push_back(header[i]);
     }

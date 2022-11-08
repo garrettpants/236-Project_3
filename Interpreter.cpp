@@ -47,8 +47,8 @@ void Interpreter::setFacts() {
 }
 
 void Interpreter::handleQuery() {
-    for(int q =0; q < (int)d->queries.size(); q++){
-        if(q!=0){
+    for(int q = 0; q < (int)d->queries.size(); q++){
+        if(q != 0){
             cout<<'\n';
         }
         d->queries[q]->toString();
@@ -111,6 +111,7 @@ void Interpreter::handleQuery() {
 
     }
 }
+
 Relation* Interpreter::evaluatePredicate(const Predicate* p, vector<string> para){
 
     Relation* relation = data->data[p->ID];
@@ -119,15 +120,15 @@ Relation* Interpreter::evaluatePredicate(const Predicate* p, vector<string> para
     int i = 0;
     vector<int> col;
     vector<string> var;
-    for(string s : para){
-        if(s[0]=='\''){
+    for (string s : para) {
+        if (s[0]=='\''){
             relation = relation->selectIndex(i, s);
         }
-        else{
+        else {
             if(forSelect.find(s)!=forSelect.end()){
                 relation = relation->selectMatch(forSelect[s], i);
             }
-            else{
+            else {
 
                 forSelect.insert({s, i});
                 col.push_back(i);
@@ -137,16 +138,15 @@ Relation* Interpreter::evaluatePredicate(const Predicate* p, vector<string> para
         }
         i++;
     }
-    if((int)relation->relation.size()>0){
+    if ((int)relation->relation.size()>0){
         cout<<" Yes(";
         cout<<relation->relation.size();
         cout<<")";
     }
-    else{
+    else {
         cout<<" No";
     }
     relation = relation->project(col);
     relation = relation->rename(var);
     return relation;
-
 }
